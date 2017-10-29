@@ -1409,8 +1409,8 @@ DEFAULT_MINION_OPTS = {
     'extmod_whitelist': {},
     'extmod_blacklist': {},
     'minion_sign_messages': False,
-    'validate_event_schema': False,
-    'raise_on_invalid_schema': False,
+    'validate_event_schema': True,
+    'raise_on_invalid_schema': True,
 }
 
 DEFAULT_MASTER_OPTS = {
